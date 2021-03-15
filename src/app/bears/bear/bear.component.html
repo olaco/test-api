@@ -1,3 +1,94 @@
+<div class="container">
+
+    <div class="main">
+        <h1 class="emer"><span class="hello">Hello</span>, Emerald</h1>
+
+        <p style="margin: 10px 0;">Welcome to your dashboard kindly sort through the user base</p>
+
+        <!-- <div class="input-icons">
+
+
+            <input type="text" placeholder="">
+
+        </div> -->
+
+
+        <div class="input-icons" style="margin-bottom: 15px; padding-bottom: 55px">
+            <i class="fa fa-search icon">
+
+             </i>
+            <!-- <i class="fa fa-search icon"></i> -->
+            <input type="password" placeholder="Find a user">
+        </div>
+
+        <div class="show" style="height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <h5 style="font-size: 1rem; margin-left:64px; color: #848693; position: absolute; top: 250px;">Show User</h5>
+
+
+
+            <div class="show-user">
+
+
+
+                <div class="all_wrapper">
+
+                    <div class="all">
+                        <a href="" type="button"><i class="fa fa-users icon" style="color: #fff"></i> </a>
+
+
+                    </div>
+
+                    <p style="text-align: center; color: #848693;">All User</p>
+
+                </div>
+
+                <!-- End All -->
+
+                <div class="male_wrapper">
+
+                    <div class="male">
+                        <a href=""> <i class="fa fa-male icon" style="color:#fff"></i> </a>
+
+
+                    </div>
+
+                    <p style="text-align: center; color: #848693;">Male User</p>
+
+                </div>
+
+                <!-- End female -->
+
+
+                <div class="female_wrapper">
+
+                    <div class="female">
+                        <a href=""><i class="fa fa-female icon " style="color: #fff;"></i> </a>
+
+
+                    </div>
+
+                    <p style="text-align: center; color: #848693;">Female User</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="right">
+        Right
+    </div>
+
+
+
+
+
+</div>
+
+
 <div *ngFor="let ru of randomUser">
     <h2>{{ru.name.last}} <span>{{ru.name.first}}</span></h2>
     <p>{{ru.email}}</p>

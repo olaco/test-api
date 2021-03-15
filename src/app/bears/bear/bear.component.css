@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background: #262a41;
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 20px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.right {
+    background: #f7f7ff;
+    width: 50%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.hello {
+    color: #aaacb5;
+}
+
+.emer {
+    color: #ffffff;
+}
+
+.main,
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    color: #474a5e;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"] {
+    background: #3c3f54;
+}
+
+input::placeholder {
+    color: #9798a4;
+    text-align: center;
+    font-size: 1.5 rem;
+}
+
+input-icons {
+    width: 100%;
+}
+
+.show-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 38px;
+    /* justify-content: space-betweens; */
+}
+
+
+/* .show-user>.show {
+    width: 100%;
+} */
+
+.all {
+    padding-right: 10px;
+    background: #f935a9;
+    margin: 30px;
+    /* min-width: 10vw; */
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.male {
+    padding-right: 10px;
+    background: #30bbb5;
+    margin: 30px;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.female {
+    padding-right: 10px;
+    background: #7946c1;
+    margin: 30px;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+a {
+    color: #fff;
+}
+
+
+/* input icons */
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* div {
+    width: 100%;
+    display: inline!important;
+    display: flex;
+    flex-direction: column;
+} */
+
+.show-user {
+    padding-left: 30px;
+}
