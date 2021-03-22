@@ -1,0 +1,16 @@
+<div *ngFor="let user of allUser">
+
+    <div *ngIf="allUser > 0"></div>
+
+
+
+    <h2>{{user.name.last}} <span>{{user.name.first}}</span></h2>
+    <p>{{user.email}}</p>
+    <div>
+        <img [src]="user.picture.large" />
+
+        <div>
+
+        </div>
+
+    </div>

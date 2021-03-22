@@ -33,7 +33,7 @@
                 <div class="all_wrapper">
 
                     <div class="all">
-                        <a href="" type="button"><i class="fa fa-users icon" style="color: #fff"></i> </a>
+                        <a routerLink="/all-users" type="button"><i class="fa fa-users icon" style="color: #fff"></i> </a>
 
 
                     </div>
@@ -47,7 +47,7 @@
                 <div class="male_wrapper">
 
                     <div class="male">
-                        <a href=""> <i class="fa fa-male icon" style="color:#fff"></i> </a>
+                        <a routerLink="/male-users"> <i class="fa fa-male icon" style="color:#fff"></i> </a>
 
 
                     </div>
@@ -61,8 +61,8 @@
 
                 <div class="female_wrapper">
 
-                    <div class="female">
-                        <a href=""><i class="fa fa-female icon " style="color: #fff;"></i> </a>
+                    <div class="female-users">
+                        <a routerLink="/female-users"><i class="fa fa-female icon" style="color: #fff;"></i> </a>
 
 
                     </div>
@@ -79,7 +79,15 @@
 
 
     <div class="right">
-        Right
+
+        <router-outlet></router-outlet>
+
+        <!-- <female-users></female-users> -->
+        <!-- <all-users></all-users> -->
+
+
+        <!-- <male-users></male-users> -->
+
     </div>
 
 
@@ -88,7 +96,7 @@
 
 </div>
 
-
+<!--
 <div *ngFor="let ru of randomUser">
     <h2>{{ru.name.last}} <span>{{ru.name.first}}</span></h2>
     <p>{{ru.email}}</p>
@@ -96,4 +104,4 @@
         <img [src]="ru.picture.large" />
 
         <div>
-        </div>
+        </div> -->
